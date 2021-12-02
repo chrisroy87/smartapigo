@@ -13,7 +13,7 @@ SmartAPI is a set of REST-like APIs that expose many capabilities required to bu
 
 ## Installation
 ```
-go get github.com/angelbroking-github/smartapigo
+go get github.com/chrisroy87/smartapigo
 ```
 ## API usage
 ```golang
