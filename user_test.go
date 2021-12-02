@@ -1,7 +1,7 @@
 package smartapigo
 
 import (
-"testing"
+	"testing"
 )
 
 func (ts *TestSuite) TestGenerateSession(t *testing.T) {
@@ -55,4 +55,3 @@ func (ts *TestSuite) TestLogout(t *testing.T) {
 	}
 
 }
-
