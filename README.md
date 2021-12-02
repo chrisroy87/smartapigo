@@ -1,3 +1,9 @@
+Note: The reason for this fork is that in the original library there are some horrible mistakes that render it unusable. They are as follows:
+
+	- `type Holdings struct {}` contains `T1Quantity` as `string` while the API returns it as a number. Thererfore, there is always a JSON unmarshalling 		  error.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # The Smart API Go client
 
 The official Go client for communicating with the Angel Broking Smart APIs.
