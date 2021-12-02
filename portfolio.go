@@ -9,7 +9,7 @@ type Holding struct {
 	Tradingsymbol      string `json:"tradingsymbol"`
 	Exchange           string `json:"exchange"`
 	ISIN               string `json:"isin"`
-	T1Quantity         string `json:"t1quantity"`
+	T1Quantity         uint64 `json:"t1quantity"`
 	RealisedQuantity   string `json:"realisedquantity"`
 	Quantity           string `json:"quantity"`
 	AuthorisedQuantity string `json:"authorisedquantity"`
