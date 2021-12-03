@@ -21,7 +21,7 @@ package main
 
 import (
 	"fmt"
-	SmartApi "github.com/angelbroking-github/smartapigo"
+	SmartApi "github.com/chrisroy87/smartapigo"
 )
 
 func main() {
@@ -77,8 +77,8 @@ package main
 
 import (
 	"fmt"
-	SmartApi "github.com/angelbroking-github/smartapigo"
-	"github.com/angelbroking-github/smartapigo/websocket"
+	SmartApi "github.com/chrisroy87/smartapigo"
+	"github.com/chrisroy87/smartapigo/websocket"
 	"time"
 )
 
