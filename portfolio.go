@@ -17,7 +17,7 @@ type Holding struct {
 	Product            string  `json:"product"`
 	CollateralQuantity string  `json:"collateralquantity"`
 	CollateralType     string  `json:"collateraltype"`
-	Haircut            uint64  `json:"haircut"`
+	Haircut            float64 `json:"haircut"`
 	AveragePrice       float64 `json:"averageprice"`
 	Ltp                float64 `json:"ltp"`
 	SymbolToken        string  `json:"symboltoken"`
